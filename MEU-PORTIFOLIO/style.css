@@ -1,0 +1,108 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+	color: white;
+	background: black;
+}
+
+.imagemFundo{
+    width: 100%; 
+    z-index: -1000;
+    background: url(imagemCorpo.mp4) no-repeat;
+    background-size: cover;
+}
+
+/*#myVideo{ 
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+} */
+
+
+.fraseApresentacao{
+	position: absolute;
+	top: 400px;
+	right: 100px;
+	left: 940px;
+	font-size: 28px;
+	text-align: center;
+	
+}
+
+.fraseApresentacao em{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.minha{
+	position: relative;
+	width: 35%;
+}
+
+header{
+	background: rgb(18, 20, 36);
+}
+
+nav {
+	position: absolute;
+	top: 120px;
+	right: 100px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+	padding: 10px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	font-size: 1.5em;
+}
+
+.rodape{
+    background: black;
+    color: white;
+    text-align: center;
+	font-size: 13px;
+	padding-bottom: 20px;
+}
+
+.contato{
+	text-align: center;
+	padding: 40px 0 80px;
+}
+
+.contato p{
+	display: inline;
+	font-size: 16px;
+	padding: 0 80px;
+
+}
+
+.telefone{
+	width: 2em;
+}
+
+.whats{
+	width: 2em;
+}
+
+.linkedin{
+	width: 2em;
+}
+
+.github{
+	width: 2em;
+}
+
