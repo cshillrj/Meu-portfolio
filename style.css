@@ -4,6 +4,12 @@ body{
 	background: black;
 }
 
+.contato{
+	display: inline;
+	
+
+}
+
 .imagemFundo{
     width: 100%;
     z-index: -1000;
