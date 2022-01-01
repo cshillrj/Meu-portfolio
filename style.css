@@ -40,7 +40,7 @@ body{
 
 .minha{
 	position: relative;
-	width: 35%;
+	width: 25%;
 }
 
 header{
@@ -78,19 +78,23 @@ nav a:hover {
     text-align: center;
 	font-size: 13px;
 	padding-bottom: 20px;
+	
+	
 }
 
 .contato{
-	text-align: center;
-	padding: 40px 0 80px;
+	text-align: center;	
 }
 
 .contato p{
-	display: inline;
-	font-size: 16px;
-	padding: 0 80px;
-
+	display: inline-flex;
+	align-items: center;
+	font-size: 14px;
+	margin: 0;
+	padding: 40px;
 }
+
+
 
 .telefone{
 	width: 2em;
@@ -107,4 +111,3 @@ nav a:hover {
 .github{
 	width: 2em;
 }
-
