@@ -75,9 +75,7 @@ nav a:hover {
     color: white;
     text-align: center;
 	font-size: 13px;
-	padding-bottom: 20px;
-	
-	
+	padding-bottom: 20px;	
 }
 
 .contato{
@@ -87,9 +85,20 @@ nav a:hover {
 .contato p{
 	display: inline-flex;
 	align-items: center;
-	font-size: 14px;
+	font-size: 16px;
 	margin: 0;
 	padding: 40px;
+}
+
+.contato a{
+	color: white;
+	margin-left: 5px;
+	font-size: 16px;
+}
+
+.contato a:hover{
+	color: #C78C19;
+	font-size: 1.1em;
 }
 
 .telefone{
