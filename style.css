@@ -6,8 +6,6 @@ body{
 
 .contato{
 	display: inline;
-	
-
 }
 
 .imagemFundo{
@@ -83,7 +81,7 @@ nav a:hover {
 }
 
 .contato{
-	text-align: center;	
+	text-align: center;
 }
 
 .contato p{
@@ -93,8 +91,6 @@ nav a:hover {
 	margin: 0;
 	padding: 40px;
 }
-
-
 
 .telefone{
 	width: 2em;
