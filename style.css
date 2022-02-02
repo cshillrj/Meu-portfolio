@@ -37,6 +37,11 @@ body{
 	font-size: 32px;
 }
 
+.badge-base{
+	padding-top: 100px;
+	padding-left: 200px;
+}
+
 .minha{
 	position: relative;
 	width: 25%;
@@ -64,11 +69,13 @@ nav a {
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+	transition: 0.5s;
 }
 
 nav a:hover {
 	color: #C78C19;
 	font-size: 1.5em;
+	transition: 0.5s;
 }
 
 .rodape{
@@ -96,11 +103,13 @@ nav a:hover {
 	color: white;
 	margin-left: 5px;
 	font-size: 16px;
+	transition: 0.5s;
 }
 
 .contato a:hover{
 	color: #C78C19;
 	font-size: 1.1em;
+	transition: 0.5s;
 }
 
 .telefone{
